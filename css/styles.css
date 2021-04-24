@@ -1,0 +1,199 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+h1,h2,h3,h4,h5,h6
+{
+  font-family: 'Montserrat', sans-serif;
+}
+p{
+  color: #8f8f8f;
+}
+
+/*Headings*/
+.big-heading
+{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bolder;
+}
+.section-heading
+{
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bolder;
+}
+
+
+#title /*Inorder to add id's we use # sign*/
+{
+  background-color: #ff4c68;
+  text-align: left;
+  color: #fff;
+}
+
+/*Moving the pic and content to down and nulling(0) the initial value provided by the bootstrap*/
+.navbar
+{
+  padding:0 0 4.5rem;
+}
+
+/*Navigation bar(top) Font and Color change*/
+.navbar-brand
+{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+/*Changing the distance between contact, pricing etc in top*/
+.nav-item
+{
+  padding: 0 18px;
+}
+/*Increasing the size of the nav-item*/
+.nav-link
+{
+  font-size:1.2rem;
+}
+
+
+/*Rotating the image and reducing its size*/
+.title-image
+{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  padding-right: 10%;
+}
+
+
+.container-fluid
+{
+  padding: 3% 15% 7%;
+}
+/*reducing the size of the image after z-index is applied*/
+.imgsiz
+{
+  position: relative;
+}
+
+/*Features Section this is an id don't forget that*/
+#features
+{
+  background-color: white;
+  padding: 7% 15%;
+  position: relative;
+  z-index: 1;
+}
+
+
+/*Feature box just below main screen Features Section*/
+.feature-box
+{
+  font-weight: bolder;
+
+  padding: 5%;
+}
+/*Changing the color of the icons and using hover in them*/
+.changess
+{
+  color: #ef8172;
+  margin-bottom: 1rem;
+
+}
+.changess:hover
+{
+  color: #ff4c68;
+}
+.feature-text
+{
+  font-weight: bolder;
+}
+/*Section Testimonials*/
+#testimonials
+{
+  padding: 7% 15%;
+
+  background-color: #ef8172;
+  color: #fff;
+}
+.testimonial-image
+{
+  width: 10%;
+  border-radius: 100%;
+  margin: 5%;
+}
+.testimonial-text
+{
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bolder;
+}
+/* Press Section*/
+
+#press
+{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+.press-logo
+{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item/*Here we want the arrow button to be outward to the content otherwise it is a mess*/
+{
+  padding: 7% 15%;
+}
+
+/*Pricing Section*/
+
+#pricing
+{
+  padding: 100px;
+}
+.pricing-column/*Adding space in the cards*/
+{
+  padding: 3% 2%;
+}
+.pricing-text
+{
+  font-weight: bolder;
+}
+/*Section id cta*/
+
+#cta
+{
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 7% 15%;
+}
+.cta-heading
+{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+/*Footer*/
+#footer{
+  padding: 7% 15%;
+}
+.social-icon
+{
+  margin: 20px 10px;
+}
+
+/*Making our website responsive for mobile devices*/
+@media (max-width: 1028px) {
+  #title{
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform:rotate(0);
+  }
+}
